@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "esnext",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom",
+      "ES2017.object"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "selenium-webdriver": [
+        "node_modules/protractor/built/selenium-webdriver"
+      ],
+      "selenium-webdriver/*": [
+        "node_modules/protractor/built/selenium-webdriver/*"
+      ]
+    }
+  }
+}
