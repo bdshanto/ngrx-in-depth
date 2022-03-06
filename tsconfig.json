@@ -16,6 +16,15 @@
       "es2017",
       "dom",
       "ES2017.object"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "selenium-webdriver": [
+        "node_modules/protractor/built/selenium-webdriver"
+      ],
+      "selenium-webdriver/*": [
+        "node_modules/protractor/built/selenium-webdriver/*"
+      ]
+    }
   }
 }
